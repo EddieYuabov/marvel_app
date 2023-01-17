@@ -38,7 +38,7 @@ const movies = [
   {
     id: 5,
     src: 'https://www.youtube.com/embed/JerVrbLldXw',
-    name: 'Captain America: The First Avenger',
+    name: `Captain America: The First Avenger`,
     img: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg',
     release_date: '07/22/11',
     run_time: '2h 4m',

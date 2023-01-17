@@ -3,7 +3,10 @@ import movies from '../data'
 const Home = (props) => {
   return (
     <div>
-      <h1 id="header"> MARVEL CINAMATIC UNIVERSE </h1>
+      <h1 id="header">
+        {' '}
+        <i>MARVEL CINAMATIC UNIVERSE</i>
+      </h1>
       <main>
         <Map film={props.film} movies={movies} />
       </main>
