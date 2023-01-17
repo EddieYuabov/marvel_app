@@ -35,15 +35,9 @@ nav{
   /* box-shadow: 60px -15px teal; */
 }
 .map-img:hover{
-  border-radius: 10px;
   height: 375px;
   margin: 20px 50px 0px 50px;
-  border-style: groove;
-  border-color: black;
   transition: .5s;
-  cursor: pointer;
-  -moz-box-shadow: 3px 3px 3px rgb(48, 48, 48);
-  -webkit-box-shadow: 3px 3px 3px rgb(48, 48, 48);
   box-shadow: 0px 0px 20px 5px rgb(100, 100, 100);
 }
 .detail-img{
@@ -65,28 +59,6 @@ nav{
   margin: auto;
   margin: 0px 160px 0px 160px;
 }
-/* .movie-map{
-  background-color: rgb(80, 80, 80);
-  margin:auto;
-  margin-bottom: 20px;
-  padding-top: 30px;
-  border-radius: 15px;
-  outline-style: groove;
-  outline-color: black;
-  outline-width: 1px;
-  box-shadow: 10px 5px 5px rgb(48, 48, 48);
-  transition: 1s;
-  border-style: groove;
-  border-color: rgb(66, 0, 0);
-} */
-/* .movie-map:hover{
-  outline-style:inset;
-  outline-color: #570000;
-  outline-width: 1ch;
-  transition: .2s;
-  box-shadow: 10px 5px 5px rgb(31, 31, 31);
-  cursor: pointer;
-} */
 #map-delete{
   margin-left: 5px;
   background-color: rgb(0, 0, 0);
@@ -170,6 +142,12 @@ iframe{
   .map-img{
     height: 250px;
   }
+  .map-img:hover{
+    height: 275px;
+    margin: 20px 50px 0px 50px;
+    transition: .5s;
+    box-shadow: 0px 0px 20px 5px rgb(100, 100, 100);
+  }
   #movie-list{
     margin: 0px 100px 0px 100px;
   }
@@ -193,6 +171,12 @@ iframe{
     height: 200px;
     margin: 25px 15px 20px 15px;
   }
+  .map-img:hover{
+    height: 225px;
+    margin: 20px 15px 0px 15px;
+    transition: .5s;
+    box-shadow: 0px 0px 20px 5px rgb(100, 100, 100);
+  }
   .font{
     font-size:15px;
   }
@@ -206,8 +190,8 @@ iframe{
 @media (max-width: 480px){
   .map-img{
     border-radius: 10px;
-    height: 150px;
-    margin: 0px 30px 20px 30px;
+    height: 250px;
+    margin: 0px 10px 20px 10px;
     border-style: groove;
     border-color: black;
   }
@@ -215,7 +199,7 @@ iframe{
     font-size:15px;
   }
   #header{  
-    font-size: 23px;
+    font-size: 30px;
   }
   #movie-list{
     margin: 0px 20px 0px 20px;
