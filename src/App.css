@@ -79,7 +79,9 @@ nav{
 #nav{
   justify-content: space-evenly;
   display: flex;
+  /* background-color: #7d0000; */
   background-color:#360000;
+  /* background-color:#000000; */
 }
 .font{
   color:rgb(255, 255, 255);

@@ -1,5 +1,6 @@
 import Map from '../components/Map'
-import movies from '../data'
+import movies from '../data/data'
+
 const Home = (props) => {
   return (
     <div>
