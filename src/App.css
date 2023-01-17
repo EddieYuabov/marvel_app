@@ -191,11 +191,10 @@ iframe{
 }
 @media (max-width: 480px){
   .map-img{
-    border-radius: 10px;
     height: 250px;
     margin: 0px 10px 20px 10px;
     border-style: none;
-    box-shadow: 0px 0px 20px 10px rgb(105, 105, 105);
+    box-shadow: 0px 0px 20px 10px rgb(135, 135, 135);
   }
   .map-img:hover{
     height: 250px;
@@ -211,20 +210,23 @@ iframe{
   }
   #movie-list{
     margin: 0px 0px 0px 0px;
+    background-color: rgb(255, 255, 255);
   }
 }
 @media (max-width: 380px){
   .map-img{
-    border-radius: 10px;
     height: 207px;
     margin: 0px 10px 20px 10px;
     border-style: none;
-    box-shadow: 0px 0px 20px 10px rgb(105, 105, 105);
+    box-shadow: 0px 0px 20px 10px rgb(135, 135, 135);
   }
   .map-img:hover{
     height: 207px;
   }
   #header{  
     font-size: 25px;
+  }
+  #movie-list{
+    background-color: rgb(255, 255, 255);
   }
 }
