@@ -22,7 +22,7 @@ const Map = (props) => {
         {props.movies.map((movie) => (
             <div key={movie.id} className = 'movie-map' >
                 <img className = 'map-img' src = {movie.img} alt={movie.name} onClick = {() => showMovie(movie)}/>
-                {/* <h2 className="font">{movieFont(movie.name)}</h2>            */}
+                {/* <h2 className="font">{movieFont(movie.name)}</h2>          */}
             </div>
         ))}
     </div>
