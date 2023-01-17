@@ -195,7 +195,6 @@ iframe{
     height: 250px;
     margin: 0px 10px 20px 10px;
     border-style: none;
-    /* box-shadow: 0px 0px 20px 10px rgb(48, 48, 48); */
     box-shadow: 0px 0px 20px 10px rgb(105, 105, 105);
   }
   .map-img:hover{
@@ -211,6 +210,15 @@ iframe{
     font-size: 30px;
   }
   #movie-list{
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 380px){
+  .map-img{
+    border-radius: 10px;
+    height: 207px;
+    margin: 0px 10px 20px 10px;
+    border-style: none;
+    box-shadow: 0px 0px 20px 10px rgb(105, 105, 105);
   }
 }
