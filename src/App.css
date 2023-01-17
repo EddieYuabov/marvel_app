@@ -1,6 +1,7 @@
 html {
   text-align: center;
-  background-color: rgb(94, 94, 94);
+  /* background-color: rgb(94, 94, 94); */
+  background-color: rgb(59, 0, 0);
 }
 ::-webkit-scrollbar {
   display: none;
