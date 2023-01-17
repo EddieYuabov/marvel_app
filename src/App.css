@@ -53,8 +53,8 @@ nav{
   outline-width: 1px;
   box-shadow: 10px 5px 5px rgb(48, 48, 48);
   transition: 1s;
-  /* border-style: groove; */
-  /* border-color: rgb(66, 0, 0); */
+  border-style: groove;
+  border-color: rgb(66, 0, 0);
 }
 .movie-map:hover{
   outline-style:inset;
