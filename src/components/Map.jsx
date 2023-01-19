@@ -7,16 +7,6 @@ const Map = (props) => {
         navigate(`${movie.id}`)
     }
 
-    // const movieFont = (word) => {
-    //     let newWord = word.length
-    //     if(newWord > 27){
-    //         console.log("works")
-    //         return word
-    //     }
-    //     return word
-    // }
-
-
     return(
         <div> 
             <div id="movie-list">

@@ -12,19 +12,23 @@ const Movie = (props) => {
   }, [props.film, id])
 
   return movie ? (
-    <div className="detail-layout">
-      <div>
-        <img className="detail-img" src={movie.img} alt={movie.name} />
+    <div id="movie-card-layout">
+      <div className="details">
+        <div>
+          <img id="movie-card-img" src={movie.img} alt={movie.name} />
+        </div>
+        <div>
+          <h1 id="movie-font">{movie.name}</h1>
+          <h3 className="rating">
+            &nbsp;•&nbsp;Release Date: {movie.release_date}
+          </h3>
+          <h3 className="rating">&nbsp;•&nbsp;Runtime: {movie.run_time}</h3>
+          <h3 className="rating">
+            &nbsp;•&nbsp;Personal Rating: {movie.personal_rating}/10
+          </h3>
+        </div>
       </div>
       <div>
-        <h1 className="font">{movie.name}</h1>
-        <h3 className="rating">
-          &nbsp;•&nbsp;Release Date: {movie.release_date}
-        </h3>
-        <h3 className="rating">&nbsp;•&nbsp;Runtime: {movie.run_time}</h3>
-        <h3 className="rating">
-          &nbsp;•&nbsp;Personal Rating: {movie.personal_rating}/10
-        </h3>
         <br />
         <iframe
           className="iframe"

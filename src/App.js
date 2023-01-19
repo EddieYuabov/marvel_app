@@ -1,6 +1,6 @@
 import './App.css'
-import movies from './data/data'
 import Home from './pages/Home'
+import movies from './data/data'
 import { useState } from 'react'
 import shows from './data/shows'
 import Movie from './pages/Movie'
