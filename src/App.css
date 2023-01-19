@@ -91,7 +91,7 @@ nav{
   grid-template-columns: 1fr 4fr;
 }
 #movie-card-img{
-  margin: 75px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   height:550px;
   box-shadow: 0px 0px 30px 15px rgb(0, 0, 0);
 }
