@@ -17,8 +17,8 @@ const Movie = (props) => {
         <div>
           <img id="movie-card-img" src={movie.img} alt={movie.name} />
         </div>
-        <div>
-          <h1 id="movie-font">{movie.name}</h1>
+        <h1 id="movie-font">{movie.name}</h1>
+        <div id="rating-display">
           <h3 className="rating">
             &nbsp;•&nbsp;Release Date: {movie.release_date}
           </h3>
