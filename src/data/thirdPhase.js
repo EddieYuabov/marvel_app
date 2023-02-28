@@ -96,7 +96,7 @@ const thirdPhase = [
     img: 'https://www.joblo.com/wp-content/uploads/2019/01/Spider-Man-Far-From-Home-poster-1-1.jpg',
     release_date: '07/02/19',
     run_time: '2h 10m',
-    personal_rating: ''
+    personal_rating: '8.8'
   }
 ]
 export default thirdPhase
