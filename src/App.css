@@ -31,14 +31,15 @@ nav{
   cursor: pointer;
   -moz-box-shadow: 3px 3px 3px rgb(48, 48, 48);
   -webkit-box-shadow: 3px 3px 3px rgb(48, 48, 48);
-  box-shadow: 0px 0px 20px 10px rgb(48, 48, 48);
+  box-shadow: 0px 0px 10px 5px rgb(103, 103, 103);
   /* box-shadow: 60px -15px teal; */
 }
 .map-img:hover{
   height: 375px;
   margin: 20px 50px 0px 50px;
   transition: .35s;
-  box-shadow: 0px 0px 20px 5px rgb(100, 100, 100);
+  /* box-shadow: 0px 0px 20px 5px rgb(100, 100, 100); */
+  box-shadow: 0px 0px 15px 10px rgb(78, 78, 78);
 }
 #search{
   margin-top: 10px;
