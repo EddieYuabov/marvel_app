@@ -97,6 +97,24 @@ const shows = [
     release_date: '11/25/22',
     run_time: '42 mins',
     personal_rating: '7.0'
+  },
+  {
+    id: 45,
+    src: 'https://www.youtube.com/embed/Tp_YZNqNBhw',
+    name: 'Secret Invasion',
+    img: 'https://cdn.marvel.com/content/1x/secretinvasion.jpg',
+    release_date: '06/21/23',
+    run_time: '6 episodes',
+    personal_rating: '8'
+  },
+  {
+    id: 46,
+    src: 'https://www.youtube.com/embed/dug56u8NN7g',
+    name: 'Loki Season 2',
+    img: 'https://lumiere-a.akamaihd.net/v1/images/image002_18870_b56691ea.jpeg?region=0,0,1688,2500',
+    release_date: '10/05/23',
+    run_time: '6 episodes',
+    personal_rating: '9'
   }
 ]
 export default shows

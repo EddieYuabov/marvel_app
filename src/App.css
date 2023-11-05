@@ -7,12 +7,6 @@ html {
 a{
   text-decoration: none;
 }
-/* ::-webkit-scrollbar {
-  display: none;
-} */
-button{
-  cursor: pointer;
-}
 nav{
   position: sticky;
   top: 0;
@@ -100,6 +94,15 @@ nav{
   top:68%;
   left:44.8%;
   /* letter-spacing: -4px; */
+}
+#shows-font{
+  color:white; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transform: scale(1.1, 1.5);
+  font-size: 43px;
+  position: absolute;
+  top:68%;
+  left:45%;
 }
 #nav-home{
   display: grid;
