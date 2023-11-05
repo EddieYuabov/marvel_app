@@ -62,12 +62,17 @@ nav{
   /* margin: 0px 15% 0px 15%; */
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10%;
   border-radius: 50px;
+  border-radius: 10%;
 
 }
 #container{
   background-image: url("https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/31/25/54/1000_F_231255472_Gy7RE6FSUNBiCZGnU65iBmh6wl0P0jO7.jpg");
+  background-image: url("https://img.freepik.com/premium-photo/black-brick-building-wall-interior-modern-loft-background-design_73152-5446.jpg");
+  
+  background-color: #000000;
+  background-position: center;
   /* margin: 0px 15% 0px 15%; */
   display: grid;
   justify-content: center;
@@ -82,7 +87,7 @@ nav{
 }
 #header{  
   /* background-color: #7d0000; */
-  padding: 30px 0px 15px 0px;
+  margin: 30px 0px 15px 0px;
   font-family: Marvel;
   font-size: 50px;
   height:300px;
@@ -93,9 +98,9 @@ nav{
 #nav{
   justify-content: space-evenly;
   display: flex;
-  /* background-color: #7d0000; */
-  background-color:#360000;
-  /* background-color:#000000; */
+  /* background-color:#360000; */
+  background-color:#000000;
+  background-color: rgb(0, 0, 0);
 }
 #movie-font{
   color:rgb(0, 0, 0);
@@ -108,7 +113,7 @@ nav{
   -1px -1px 0 rgb(255, 255, 255);
 }
 .nav-font{
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #movie-card-layout{
   display: grid;
@@ -160,14 +165,6 @@ iframe{
   }
   .map-img{
     height: 350px;
-  }
-  #header{  
-    color: rgb(255, 255, 255);
-    background-color: #7d0000;
-    padding: 60px 0px 60px 0px;
-    margin: 0px;
-    font-family: Marvel;
-    font-size: 35px;
   }
   #movie-list{
     margin: 0px 100px 0px 100px;
