@@ -3,7 +3,9 @@ const Nav = () => {
 
     return (
         <div id="nav">
-            <Link to = '/'><h3 className="nav-font">All movies</h3></Link>
+            <div id = 'nav-home'>
+                <Link to = '/'><h3 className="nav-font">All movies</h3></Link>   
+            </div>
             <Link to = '/phase1'><h3 className="nav-font">Phase 1</h3></Link>
             <Link to = '/phase2'><h3 className="nav-font">Phase 2</h3></Link>
             <Link to = '/phase3'><h3 className="nav-font">Phase 3</h3></Link>

@@ -23,8 +23,6 @@ nav{
 }
 .map-img{
   border-radius: 10px;
-  /* height: 90%; */
-  /* width: 60%; */
   height: 450px;
   margin: 10px 25px 15px 25px;
   cursor: pointer;
@@ -54,7 +52,7 @@ nav{
 #movie-list{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  padding: 30px 120px 0px 120px;
+  padding: 50px 120px 0px 120px;
   /* background-color: rgb(94, 94, 94); */
   /* background-color: rgb(178, 178, 178); */
   background-color: rgb(255, 255, 255);
@@ -63,21 +61,18 @@ nav{
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
-  border-radius: 10%;
+  border-radius: 100px 100px;
+  border-radius: 10;
 
 }
 #container{
-  background-image: url("https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
-  background-image: url("https://as1.ftcdn.net/v2/jpg/02/31/25/54/1000_F_231255472_Gy7RE6FSUNBiCZGnU65iBmh6wl0P0jO7.jpg");
+  /* background-image: url("https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
   background-image: url("https://img.freepik.com/premium-photo/black-brick-building-wall-interior-modern-loft-background-design_73152-5446.jpg");
-  
   background-color: #000000;
   background-position: center;
-  /* margin: 0px 15% 0px 15%; */
   display: grid;
   justify-content: center;
   align-items: center;
-  /* max-width: 1000px; */
 }
 #map-delete{
   margin-left: 5px;
@@ -88,17 +83,33 @@ nav{
 #header{  
   /* background-color: #7d0000; */
   margin: 30px 0px 15px 0px;
-  font-family: Marvel;
-  font-size: 50px;
   height:300px;
 }
-#header-background{
-  /* background-color: rgb(178, 178, 178); */
+#phase{
+  position: relative;
+  text-align: center;
+  color:white;
+}
+#phase-font{
+  color:white; 
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transform: scale(1.1, 1.5);
+  font-size: 43px;
+  position: absolute;
+  top:68%;
+  left:44.8%;
+  /* letter-spacing: -4px; */
+}
+#nav-home{
+  display: grid;
+  justify-content: center;
+  /* margin-left: 100px; */
 }
 #nav{
-  justify-content: space-evenly;
   display: flex;
-  /* background-color:#360000; */
+  /* grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  justify-content: center;
   background-color:#000000;
   background-color: rgb(0, 0, 0);
 }
@@ -114,6 +125,7 @@ nav{
 }
 .nav-font{
   color: rgb(255, 255, 255);
+  margin: 10px;
 }
 #movie-card-layout{
   display: grid;
