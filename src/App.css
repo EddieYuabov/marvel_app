@@ -27,7 +27,7 @@ nav{
   margin: 25px 50px 20px 50px;
   border-style: groove;
   border-color: black;
-  transition: 1s;
+  /* transition: 1s; */
   cursor: pointer;
   -moz-box-shadow: 3px 3px 3px rgb(48, 48, 48);
   -webkit-box-shadow: 3px 3px 3px rgb(48, 48, 48);
@@ -196,6 +196,7 @@ iframe{
     height:425px;
     box-shadow: 0px 0px 30px 15px rgb(0, 0, 0);
     margin: 50px 0px 0px 0px;
+    transition: 0s;
   }
   iframe{
     margin: 0px;
@@ -219,7 +220,9 @@ iframe{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1235 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width:1235px){
   .map-img{
-    height: 350px;
+    height: 90%;
+    width: 60%;
+    transition: 0s;
   }
   #header{  
     font-size: 35px;
@@ -227,6 +230,7 @@ iframe{
   #movie-list{
     margin: 0px 100px 0px 100px;
     grid-template-columns:1fr 1fr;
+    transition: 0s;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1075 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -235,7 +239,8 @@ iframe{
     grid-template-columns:1fr 1fr;
   }
   .map-img{
-    height: 250px;
+    height: 80%;
+    width: 50%
   }
   .map-img:hover{
     height: 275px;
@@ -318,8 +323,8 @@ iframe{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 745 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 745px){
   .map-img{
-    height: 200px;
-    margin: 25px 15px 20px 15px;
+    height: 280px;
+    margin: 25px 10% 20px 10%;
   }
   .map-img:hover{
     height: 225px;
@@ -412,8 +417,6 @@ iframe{
     background-color: rgb(255, 255, 255);
   }
 }
-
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 375 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 375px) {
 
