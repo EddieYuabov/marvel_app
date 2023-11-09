@@ -46,23 +46,18 @@ nav{
 #movie-list{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  padding: 50px 120px 0px 120px;
+  padding: 50px 120px 20px 120px;
   /* background-color: rgb(94, 94, 94); */
   /* background-color: rgb(178, 178, 178); */
   background-color: rgb(255, 255, 255);
   /* margin: 0px 180px 0px 180px; */
   /* margin: 0px 15% 0px 15%; */
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50px;
-  border-radius: 100px 100px;
-  border-radius: 10;
-
+  margin: 0px auto  auto;
+  /* border-radius: 100px 100px;s */
 }
 #container{
   /* background-image: url("https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
   background-image: url("https://img.freepik.com/premium-photo/black-brick-building-wall-interior-modern-loft-background-design_73152-5446.jpg");
-  background-color: #000000;
   background-position: center;
   display: grid;
   justify-content: center;

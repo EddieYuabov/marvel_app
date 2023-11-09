@@ -48,7 +48,6 @@ function App() {
         <Route path="/shows" element={<Shows film={show} />} />
         <Route path="/shows/:id" element={<Movie film={show} />} />
       </Routes>
-      <section></section>
     </div>
   )
 }
