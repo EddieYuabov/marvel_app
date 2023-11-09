@@ -15,8 +15,10 @@ const Home = (props) => {
         </div>
         {/* <h1 id="header"> MARVEL CINAMATIC UNIVERSE</h1> */}
         <Map film={props.film} movies={movies} />
-        <Footer />
       </main>
+      <div id="footer-div">
+        <Footer />
+      </div>
     </div>
   )
 }
