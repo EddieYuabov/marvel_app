@@ -4,14 +4,14 @@ const Nav = () => {
     return (
         <div id="nav">
             <div id = 'nav-home'>
-                <Link to = '/'><h3 className="nav-font">All movies</h3></Link>   
+                <Link to = '/' className='link'><p className="nav-font">All movies</p></Link>   
             </div>
-            <Link to = '/phase1'><h3 className="nav-font">Phase 1</h3></Link>
-            <Link to = '/phase2'><h3 className="nav-font">Phase 2</h3></Link>
-            <Link to = '/phase3'><h3 className="nav-font">Phase 3</h3></Link>
-            <Link to = '/phase4'><h3 className="nav-font">Phase 4</h3></Link>
-            <Link to = '/phase5'><h3 className="nav-font">Phase 5</h3></Link>
-            <Link to = '/shows'><h3 className="nav-font">Shows</h3></Link>
+            <Link to = '/phase1' className='link'><p className="nav-font">Phase 1</p></Link>
+            <Link to = '/phase2' className='link'><p className="nav-font">Phase 2</p></Link>
+            <Link to = '/phase3' className='link'><p className="nav-font">Phase 3</p></Link>
+            <Link to = '/phase4' className='link'><p className="nav-font">Phase 4</p></Link>
+            <Link to = '/phase5' className='link'><p className="nav-font">Phase 5</p></Link>
+            <Link to = '/shows' className='link'><p className="nav-font">Shows</p></Link>
         </div>
     )
 }

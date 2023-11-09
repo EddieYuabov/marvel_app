@@ -7,6 +7,14 @@ html {
 a{
   text-decoration: none;
 }
+.link p{
+  font-size: large;
+}
+.link:hover{
+  .nav-font{
+    color:red
+  }
+}
 nav{
   position: sticky;
   top: 0;
@@ -125,6 +133,9 @@ nav{
 .nav-font{
   color: rgb(255, 255, 255);
   margin: 10px;
+}
+.nav-font:hover{
+  color:rgb(255, 0, 0)
 }
 #movie-card-layout{
   display: grid;
