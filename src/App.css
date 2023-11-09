@@ -83,7 +83,7 @@ nav{
   height:300px;
 }
 #phase{
-  position: relative;
+  /* position: relative; */
   text-align: center;
   color:white;
 }
@@ -91,21 +91,22 @@ nav{
   color:white; 
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transform: scale(1.1, 1.5);
   font-size: 43px;
-  position: absolute;
-  top:68%;
-  left:44.8%;
+  padding:0;
+  /* top:330px; */
+  /* display: grid; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
   /* letter-spacing: -4px; */
 }
 #shows-font{
   color:white; 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transform: scale(1.1, 1.5);
   font-size: 43px;
-  position: absolute;
-  top:68%;
-  left:45%;
+  margin-top: 10px;
+  /* position: absolute; */
 }
 #nav-home{
   display: grid;
