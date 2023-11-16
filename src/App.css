@@ -66,11 +66,12 @@ nav{
 #container{
   /* background-image: url("https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
   background-image: url("https://img.freepik.com/premium-photo/black-brick-building-wall-interior-modern-loft-background-design_73152-5446.jpg");
-  background-position: center;
+  background-position: fixed;
   display: grid;
   justify-content: center;
   align-items: center;
 }
+
 #map-delete{
   margin-left: 5px;
   background-color: rgb(0, 0, 0);
@@ -198,7 +199,8 @@ iframe{
     grid-template-columns:1fr 1fr 1fr;
   }
   .map-img{
-    height: 350px;
+    height: 400px;
+    transition: 0s;
   }
   #movie-list{
     margin: 0px 100px 0px 100px;
@@ -235,14 +237,14 @@ iframe{
     font-size: 22px;
   }
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1265 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1160 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 1160px) {
   .rating{
     font-size: 18px;
     padding: 10px 0px 10px 0px;
   }
   #movie-card-img{
-    height:425px;
+    height:400px;
     box-shadow: 0px 0px 30px 15px rgb(0, 0, 0);
     margin: 50px 0px 0px 0px;
     transition: 0s;
@@ -266,29 +268,47 @@ iframe{
     margin: 0px 100px 0px 100px;
   }
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1235 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media (max-width:1150px){
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1280 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width:1280px){
   
   .map-img{
-    height: 90%;
-    width: 60%;
+    border-radius: 10px;
+    height:93.3%;
+    width:84%;
+    /* margin: 10px 10% 15px 10%; */
+    margin: 10px 25px 15px 25px;
+    cursor: pointer;
+    -moz-box-shadow: 3px 3px 3px rgb(48, 48, 48);
+    -webkit-box-shadow: 3px 3px 3px rgb(48, 48, 48);
+    box-shadow: 0px 0px 10px 5px rgb(103, 103, 103);
     transition: 0s;
   }
   .map-img:hover{
-    height: 93%;
-    width: 63%;
-    margin: 20px 5% 0px 5%;
-    transition: .35s;
+    /* height: 93%; */
+    margin: 5px 25px 20px 25px;
+    /* width: 63%; */
+    /* margin: 20px 5% 0px 5%; */
+    /* transition: .35s; */
     /* box-shadow: 0px 0px 20px 5px rgb(100, 100, 100); */
-    box-shadow: 0px 0px 15px 10px rgb(78, 78, 78);
+    /* box-shadow: 0px 0px 15px 10px rgb(78, 78, 78); */
   }
   #header{  
     font-size: 35px;
   }
   #movie-list{
-    margin: 0px 100px 0px 100px;
-    grid-template-columns:1fr 1fr;
+    margin: 0px 5% 0px 5%;
+    padding:0px 5% 20px 5%;
+    /* grid-template-columns:1fr 1fr; */
     transition: 0s;
+    display: grid;
+    padding: 50px 120px 20px 120px;
+    /* background-color: rgb(94, 94, 94); */
+    /* background-color: rgb(178, 178, 178); */
+    background-color: rgb(255, 255, 255);
+    /* margin: 0px 180px 0px 180px; */
+    /* margin: 0px 15% 0px 15%; */
+    margin: 0px 2.5% 50px 2.5%;
+    border-radius: 100px 100px;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1075 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -304,7 +324,7 @@ iframe{
     /* height: 83%;
     width: 52%; */
     margin: 20px 5% 0px 5%;
-    transition: .5s;
+    /* transition: .5s; */
     box-shadow: 0px 0px 20px 5px rgb(100, 100, 100);
   }
   #movie-list{
