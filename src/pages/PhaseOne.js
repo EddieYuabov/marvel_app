@@ -6,11 +6,7 @@ const PhaseOne = (props) => {
     <div>
       <main id="container">
         <div id="phase">
-          <img
-            id="header"
-            alt="Logo"
-            src="https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1.jpg"
-          />
+          <img id="header" src={require('../img/marvel2.png')} alt="logo" />
           <h1 id="phase-font"> PHASE 1</h1>
         </div>
         <MapPhaseOne film={props.film} movies={firstPhase} />
