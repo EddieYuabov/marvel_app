@@ -236,7 +236,7 @@ iframe{
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1265 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media (max-width: 1265px) {
+@media (max-width: 1160px) {
   .rating{
     font-size: 18px;
     padding: 10px 0px 10px 0px;
@@ -267,7 +267,7 @@ iframe{
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1235 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media (max-width:1235px){
+@media (max-width:1150px){
   
   .map-img{
     height: 90%;
@@ -292,7 +292,7 @@ iframe{
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1075 px ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media (max-width:1075px){
+@media (max-width:1005px){
   #movie-list{
     grid-template-columns:1fr 1fr;
   }
