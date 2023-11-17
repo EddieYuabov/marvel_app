@@ -87,7 +87,7 @@ const shows = [
     img: 'https://m.media-amazon.com/images/M/MV5BZjI3NjI3NDQtY2RmYS00NTJjLWI0YTQtNTE4NmZiN2UzMWJjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg',
     release_date: '10/07/22',
     run_time: '53 minutes',
-    personal_rating: 'idek'
+    personal_rating: 'NA'
   },
   {
     id: 42,
@@ -105,7 +105,7 @@ const shows = [
     img: 'https://cdn.marvel.com/content/1x/secretinvasion.jpg',
     release_date: '06/21/23',
     run_time: '6 episodes',
-    personal_rating: '8'
+    personal_rating: 'NA'
   },
   {
     id: 46,

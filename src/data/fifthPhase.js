@@ -24,7 +24,7 @@ const fifthPhase = [
     img: 'https://cdn.marvel.com/content/1x/secretinvasion.jpg',
     release_date: '06/21/23',
     run_time: '6 episodes',
-    personal_rating: '8'
+    personal_rating: 'NA'
   },
   {
     id: 46,
@@ -42,7 +42,7 @@ const fifthPhase = [
     img: 'https://m.media-amazon.com/images/M/MV5BM2U2YWU5NWMtOGI2Ni00MGMwLWFkNjItMjgyZWMxNjllNTMzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg',
     release_date: '11/10/23',
     run_time: '1h 45m',
-    personal_rating: '5'
+    personal_rating: 'NA'
   }
 ]
 export default fifthPhase
