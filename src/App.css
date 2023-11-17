@@ -27,7 +27,7 @@ nav{
   border-radius: 10px;
   height: 450px;
   margin: 10px 25px 15px 25px;
-  cursor: pointer;
+  cursor:pointer;
   -moz-box-shadow: 3px 3px 3px rgb(48, 48, 48);
   -webkit-box-shadow: 3px 3px 3px rgb(48, 48, 48);
   box-shadow: 0px 0px 10px 5px rgb(103, 103, 103);
@@ -71,7 +71,14 @@ nav{
   justify-content: center;
   align-items: center;
 }
-
+#movie-card-container{
+    /* background-image: url("https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
+    background-image: url("https://img.freepik.com/premium-photo/black-brick-building-wall-interior-modern-loft-background-design_73152-5446.jpg");
+    background-position: fixed;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 #map-delete{
   margin-left: 5px;
   background-color: rgb(0, 0, 0);
@@ -140,14 +147,18 @@ nav{
   color:rgb(255, 0, 0)
 }
 #movie-card-layout{
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: white;
+  margin: 100px 100px 100px 100px;
+  padding: 100px 300px 100px 300px;
+  border-radius: 50px;
 }
 #movie-card-img{
   margin: 50px 0px 0px 0px;
   height:550px;
   box-shadow: 0px 0px 30px 15px rgb(0, 0, 0);
-  transition: 1s;
 }
 .rating{
   color:rgb(255, 255, 255);
@@ -166,18 +177,22 @@ nav{
 /* #rating-display{
   transition: 1s;
 } */
+#iframe-container{
+  display: grid;
+}
 iframe{
-  margin-top: 70px;
-  margin-right: 50px;
+  /* margin:70px 50px 0px 150px; */
   height: 600px;
   width: 1000px;
-  box-shadow: 0px 0px 25px 25px rgb(0, 0, 0);
-  /* box-shadow: 0px 0px 75px 85px rgb(0, 0, 0); */
-  transition: 1s;
+  box-shadow: 0px 0px 25px 25px rgb(150, 150, 150);
 }
 .details{
-  margin-left: 100px;
-  margin-right: 80px;
+  /* margin-left: 100px; */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 150px; */
+  padding: 0px 10% 0px 0%;
 }
 #rating-display{
   background-color: rgb(54, 54, 54);

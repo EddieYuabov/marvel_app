@@ -8,7 +8,7 @@ const Map = (props) => {
     }
 
     return(
-        <div id="containermovie-"> 
+        <div id="movie-container"> 
             <div id="movie-list">
             {props.movies.map((movie) => (
                 <div key={movie.id} className = 'movie-map' >
