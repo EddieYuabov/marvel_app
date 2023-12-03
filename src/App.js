@@ -17,6 +17,7 @@ import { Routes, Route } from 'react-router-dom'
 import PhaseFour from './pages/PhaseFour'
 import PhaseFive from './pages/PhaseFive'
 import Shows from './pages/shows'
+import Search from './components/Search'
 
 function App() {
   const [all] = useState(movies)
@@ -26,14 +27,18 @@ function App() {
   const [p4] = useState(fourthPhase)
   const [p5] = useState(fifthPhase)
   const [show] = useState(shows)
+  // just put input state here do this some other time i cant rn 
 
   return (
     <div className="App">
       <nav>
         <Nav />
       </nav>
+        <div id="header-background">
+          <img id="header" src={require('./img/marvel2.png')} alt="logo" />
+        </div>
       <Routes>
-        <Route path="/" element={<Home film={all} />} />
+        <Route path="/" element={<Home film={all}/>} />
         <Route path="/:id" element={<Movie film={all} />} />
         <Route path="/phase1" element={<PhaseOne film={p1} />} />
         <Route path="/phase1/:id" element={<Movie film={p1} />} />
